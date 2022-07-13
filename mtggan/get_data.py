@@ -52,7 +52,7 @@ def get_card_images(card_list: str = 'data/artwork.json'):
             )
 
         # ignore missing data
-        except KeyError:
+        except Exception:
             pass
 
         # don't overload scryfall api
