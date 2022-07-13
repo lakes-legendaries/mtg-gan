@@ -20,12 +20,13 @@ Quickstart
 
 #. Get the necessary data file by going to `scryfall
    <https://scryfall.com/docs/api/bulk-data>`_ and downloading their
-   :code:`Unique Artwork` file.
+   :code:`Unique Artwork` file. Save this as :code:`data/artwork.json`
 
-#. Fetch data with:
+#. Fetch card images with:
 
    .. code-block:: bash
 
       python mtggan/get_data.py
 
-   This will output many card images to your :code:`data` folder.
+   This will output many card images to your :code:`data` folder. This may take
+   a while.
